@@ -1,0 +1,48 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.block {
+  width: 150px;
+  height: 50%;
+  background-color: black;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.block .light {
+  width: 100px;
+  height: 100px;
+  background-color: #555;
+  border: none;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+
+}
+
+.block .light:after {
+  content: "";
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-shadow: 8px 1px 0px -2px white;
+  left: 45px;
+}
+
+.command {
+  font-size: 62px;
+  text-orientation: upright;
+  writing-mode: vertical-lr;
+}
