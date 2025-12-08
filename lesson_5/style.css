@@ -1,0 +1,60 @@
+body {
+  background-color: #444;
+}
+
+.popup {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  /* border: 3px solid #eee; */
+  border-radius: 20px;
+  position: fixed;
+
+  font-size: 36px;
+}
+
+.popup.small {
+  width: 200px;
+  height: 100px;
+}
+
+.popup.medium {
+  width: 400px;
+  height: 200px;
+}
+
+.popup.large {
+  width: 600px;
+  height: 300px;
+}
+
+.popup.info {
+  background-color: #4747ea;
+  color: white;
+}
+.popup.error {
+  background-color: #e5461a;
+  color: white;
+}
+.popup.success {
+  background-color: #07b313;
+  color: white;
+}
+.popup.warning {
+  background-color: #e5c319;
+  color: white;
+}
+
+.popup.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.popup.top-right {
+  top: 20px;
+  right: 20px;
+}
+.popup.bottom-right {
+  bottom: 20px;
+  right: 20px;
+}
